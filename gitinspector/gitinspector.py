@@ -54,7 +54,7 @@ DEFAULT_EXTENSIONS = ["*.java", "*.cs", "*.rb",
                       "*.s",    "*.asm", "*.rkt",
                       "*.l",    "*.y",
                       "*.glsl", "*.sql",
-                      "*akefile", "README", "INSTALL",
+                      "*akefile", "README", "INSTALL"
                      ]
 
 DEFAULT_IGNORED = [ "node_modules/*", ".parcel-cache/*" ]

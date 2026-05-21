@@ -62,6 +62,9 @@ class FileType(Enum):
     TEX    = auto()
     TXT    = auto()
     VISUALBASIC = auto()
+    TYPESCRIPT = auto()
+    VUE = auto()
+    TSX = auto()
 
     __types__ = {
         "bib"      : TEX,
@@ -101,10 +104,12 @@ class FileType(Enum):
         "sh"       : SHELL,
         "sql"      : SQL,
         "tex"      : TEX,
-        "ts"       : JAVASCRIPT,
+        "ts"       : TYPESCRIPT,
         "txt"      : TXT,
         "vb"       : VISUALBASIC,
         "xml"      : TXT,
+        "vue"      : VUE,
+        "tsx"      : TSX,
     }
 
     @staticmethod
